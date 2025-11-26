@@ -10,7 +10,6 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-text">
             <p>&copy; {currentYear} Harsh Chimnani. All rights reserved.</p>
-            <p className="footer-tagline">creating my own universe in the world of fake narratives</p>
           </div>
           <div className="footer-links">
             <a
