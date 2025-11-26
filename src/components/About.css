@@ -1,0 +1,204 @@
+.about {
+  background: rgba(22, 27, 34, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 5rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #c9d1d9;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.detail-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.detail-item:hover {
+  border-color: #58a6ff;
+  transform: translateY(-5px);
+}
+
+.detail-item i {
+  font-size: 2rem;
+  color: #58a6ff;
+  flex-shrink: 0;
+}
+
+.detail-item h4 {
+  color: #58a6ff;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.detail-item p {
+  color: #c9d1d9;
+  margin-bottom: 0.25rem;
+}
+
+.detail-year {
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+.about-goals {
+  margin-bottom: 3rem;
+}
+
+.about-goals h3 {
+  color: #58a6ff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.goal-card {
+  text-align: center;
+  padding: 2rem;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.goal-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-5px);
+}
+
+.goal-card i {
+  font-size: 2.5rem;
+  color: #58a6ff;
+  margin-bottom: 1rem;
+}
+
+.goal-card h4 {
+  color: #c9d1d9;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.goal-card p {
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+.about-personality {
+  margin-bottom: 3rem;
+}
+
+.about-personality h3 {
+  color: #58a6ff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.personality-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.tag {
+  padding: 0.5rem 1rem;
+  background: rgba(88, 166, 255, 0.1);
+  border: 1px solid rgba(88, 166, 255, 0.3);
+  border-radius: 20px;
+  color: #58a6ff;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.tag:hover {
+  background: rgba(88, 166, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.about-hobbies {
+  margin-bottom: 2rem;
+}
+
+.about-hobbies h3 {
+  color: #58a6ff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.hobbies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.hobby-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.hobby-item:hover {
+  border-color: #58a6ff;
+  transform: translateY(-3px);
+}
+
+.hobby-item i {
+  color: #58a6ff;
+  font-size: 1.2rem;
+}
+
+.hobby-item span {
+  color: #c9d1d9;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .about-details {
+    grid-template-columns: 1fr;
+  }
+
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

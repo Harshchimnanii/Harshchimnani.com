@@ -1,30 +1,48 @@
 {
   "name": "harsh-chimnani-portfolio",
   "version": "1.0.0",
-  "description": "Creative space-themed portfolio website for Harsh Chimnani",
-  "main": "index.html",
+  "description": "Professional portfolio website for Harsh Chimnani - Front-End Developer",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
   "scripts": {
-    "start": "npx http-server -p 3000",
-    "dev": "npx live-server --port=3000 --open=/index.html",
-    "build": "echo 'Static site - no build needed'",
-    "deploy": "echo 'Deploy to your preferred platform'"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "keywords": [
     "portfolio",
-    "space",
+    "react",
     "developer",
-    "creative",
+    "frontend",
     "website"
   ],
   "author": "Harsh Chimnani",
   "license": "MIT",
-  "devDependencies": {
-    "http-server": "^14.1.1",
-    "live-server": "^1.2.2"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harshchimnani/portfolio.git"
+    "url": "https://github.com/Harshchimnani/portfolio.git"
   },
   "homepage": "https://harshchimnani.dev"
 }
